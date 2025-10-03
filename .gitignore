@@ -67,7 +67,7 @@ dist/
 
 # Gatsby
 .cache/
-public/
+
 
 # Vue
 /dist/
