@@ -90,3 +90,5 @@ env/
 # JetBrains IDEs
 *.iml
 .idea/
+
+package-lock.json

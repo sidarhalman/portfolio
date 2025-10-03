@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../Particle";
 import Typing from "./Typing";
-import Tilt from "react-parallax-tilt";
+
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from 'react-awesome-reveal';
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
@@ -20,7 +20,7 @@ export default function Home() {
           <Row>
           <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main" style={{ height: "300px", width: "300px" }}>
-                <Tilt>
+
                   <Fade cascade>
                     <img
                       height={300}
@@ -31,7 +31,7 @@ export default function Home() {
                     />
                   
                   </Fade>
-                </Tilt>
+             
               </div>
             </Col>
             <Col md={8} className="home-header">
